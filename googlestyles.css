@@ -1,0 +1,83 @@
+a {
+  font-family: arial, sans-serif;
+  font-size: small;
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.icons{
+  text-align: right;
+}
+.icons button{
+  border:2px none #aaa;
+  font-size: 20px;
+}
+.main-logo{
+  margin: 150px auto 10px auto;
+  text-align:center;
+}
+.main-logo img{
+  height: 95px;
+  width: 275px;
+}
+
+.container-search{
+  text-align: center;
+}
+.container-search input{
+    background-color:rgb(236, 238, 240) ;
+    border:2px none #aaa;
+    border-radius:15px;
+    box-shadow: 2px 2px 5px #888888;
+    height: 35px;
+    margin-bottom: 20px;
+    padding: 7px 15px;
+    width:475px;
+}
+.container-search button{
+  background-color:rgb(236, 238, 240) ;
+  border:2px none #aaa;
+  color:black;
+  font-size: 15px;
+  position: relative;
+  right: 40px;
+}
+.container-search input:focus{
+  outline: none;
+}
+.container-buttons{
+  text-align: center;
+}
+
+.container-buttons input{
+  color:#757575;
+  background-color: rgb(236, 238, 240);
+  border:2px none #aaa;
+  border-radius: 2px 2px;
+  font-weight: bold;
+  font-size: 11px;
+  height: 35px;
+  margin: 10px 3px;
+  width:120px;
+}
+.container-buttons input:hover{
+  border: 1px solid #757575;
+  color:black;
+}
+.container-buttons input:active{
+  color:black;
+  outline: 0.5px solid rgb(0, 86, 249) ;
+}
+
+.container-buttons input:link{
+  color:black;
+  outline: 0.5px solid rgb(0, 86, 249) ;
+}
+
+.container-languages{
+  margin-top: 10px;
+  text-align: center;
+}
